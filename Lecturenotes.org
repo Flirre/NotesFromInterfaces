@@ -1,0 +1,219 @@
+#+LATEX: \newpage
+* Chapter 1
+** What are the three types of goals that Cooper mentions, and what do they mean?
+*** End goals
+Efficiency, the user wants to get somerhing done
+
+*** Experience goal MOST IMPORTANT
+Wanna feel something, like computer games. VR applications. (user experiecne)
+The User NEVER wants to feel STUPID.
+*** Life goals
+I wanna be something. Long term
+Apple: I wanna be a apple product user. A status symbol.
+
+** What is the relation between goals, activities, tasks, and functionalities?
+The goal is supported by the activities.
+Those activities can be broken down into tasks.
+And those tasks can be fulfilled by functionalities in the application.
+
+**  What are non-user goals? Exemplify!
+The goals of other stakeholders like, Customers buying the product. Customers are often the customer,
+but not always. A system can be bought and then provided by an admin and used by others.
+Business/organization/Management, demands such as effectivity, data-gathering and conformance.
+Tech: Technical requirements must be met. Handling data properly or other tech. reqs.
+
+
+** What is the difference between mental models, represented models and implementation models, respectively?
+
+
+** Give a brief overview of the steps in the goal-oriented process.
+*** Research
+Understanding user behavior patterns and user needs.
+
+*** Modeling
+Create personas and narratives.
+
+*** Requirements
+What functionalities are needed. Define them as ''what''.
+
+*** Framework
+Layout. Define form, elements, keypaths, grouping, etc.
+
+*** Refinement
+The actual sketching and detailing of the product.
+
+*** Development support
+Support and oversee developers. Making sure that what you designed is what is being developed.
+
+** One of the most important goals for the user is to not feel…?
+NOT FEEL STUPID
+
+
+#+LATEX: \newpage
+* Chapter 5
+** List the elements of an interaction framework and describe the main reason for each of them, respectively.
+*** Form factor
+What the application is running on. Laptop, phone, something new? Design it!
+*** Posture
+How do you use it? For long and focused? Short while, and then goes away?
+*** Input
+What will the user put in to the system?
+Input pdf into ping pong.
+input grades.
+*** Output
+What does the system spit out?
+System outputs pdf to examiner.
+Grades are output for student.
+*** Data Element (what's in the system?)
+The files one can send in. The user accounts in the system, etc.
+
+*** Functional Elements
+What do we need to do with those elements?
+Download data and display on screen.
+
+*** Grouping and layout
+Prioritizing, grouping and sequencing elements.
+Where should different things be, what should be next to what, etc.
+
+*** Keypath scenarios
+Likely sequence of actions.
+
+Ex. Hand in by uploading.
+Download the hand in.
+Upload grading.
+Present grading to person uploading hand in.
+
+** When are usability tests useful for the development process, and what can they validate?
+Finding if you have missed something.
+Explore unusual cases.
+Break the design, what if we had X amount of users? How would it work on smartphone? On different systems?
+
+Testing a semi-functional prototype and see if it works as intended. If users interpret it like you do.
+
+** Describe how to conduct a formative usability test.
+''Hey you, does this make sense?''
+Done during development. Testing with anyone, just trying a part of the interface.
+
+** Describe how to conduct a summative usability test.
+When a prototype is made. Seeing if the prototype works and is understood by an actual user. In earlier steps, it can be tried on a colleague or something.
+
+** What are one of the main drawbacks of usability testing, according to Cooper?
+Doesn't really test the system for long-term usage.
+
+
+** Note
+The designer should not moderate the user test.
+This is because the user should be able to say anything they want about the system, and the
+designer should not have a stake in the design. They don't gain or lose anything if the design
+is good or bad.
+
+#+LATEX: \newpage
+* Chapter 7
+
+** List the four values that we should design for, according to Cooper et al.
+
+*** ethical
+Do no harm. Improve the human situation.
+
+personal harm - loss of dignity, Ping pongs shitty interface
+
+psychological harm - confusion and frustration
+
+physical harm - injury or death
+
+economic harm - loss of profit or productivity, ping pong slows you down preventing you
+from doing other productive things.
+
+social harm - supporting injustice
+Porn sites. Social media, enabling cyberbullying.
+
+environmental harm - energy consumption
+
+*** purposeful
+Help users reach their goals
+accomodate user situations and capacities
+
+*** pragmatic
+Help client reach their goals
+
+*** elegant
+Coherent and unified whole
+using less to accomplish more
+
+** What does “ethical interaction design” imply – give examples
+An interface that makes the user feel stupid with because of the design, like ping pong
+that can be hard to use making the user feel stupid. That is a thing that should be avoided.
+Ping pong can also slow down a user, making them miss out on other work.
+
+Porn sites are evil. Don't design them.
+Have safeguards designed to help stop social media being used for ''evil'' things,
+such as cyberbullying.
+
+#+LATEX: \newpage
+* Chapter 8
+Software should behave like a considerate and supportive human being.
+Trying to foresee or suggest likely behaviour.
+Doesn't burden the user.
+Allow for alternate ways of doing things, bending of rules and undoing mistakes.
+Fail Gracefully.
+** In terms of interaction design, what does “taking an interest”, “being consentious”, “failing gracefully”, “bending the rules” and “taking responsibility” really MEAN, respectively?
+Consentius - DO YOU WANT TO DELETE THIS? YE! NUH!
+Bending the rules - Allowing the user to undo mistakes such as a deletion. Different controls
+such as mouse control and keyboard control for the same things.
+Fail gracefully - Have clear error messages.
+Taking responsibility - Don't ask the user the same thing over and over again. Pestering the user.
+Taking an interest - Remember the user, suggesting the file used most recently.
+
+#+LATEX: \newpage
+* Chapter  9
+** What is typical for a sovereign posture?
+Large applictations that demand full attention.
+Fullscreen.
+Long periods of time.
+Work-critical tasks.
+
+Examples, MS Word, book-reading app. Sketchup, creating models.
+** What is typical for a transient posture?
+Open temporary, short bursts of time.
+Smaller or more singular tasks.
+Not used often.
+
+** What design solutions are used in a well-designed sovereign posture application?
+Discrete colors. Lot of tools and shortcuts. Lots of rich input. Work centric,
+what you are creating is in focus. Minimal amounts of popups.
+** What design solutions are used in well-designed transient posture application?
+Colours guiding users to different parts. Simple controls.
+Few but big buttons.
+
+Guidelines for transient design:
+Simple, clear, quick, large icons, more pliant ''click me'', and bright, saturated colours.
+
+** Which postures can we use for the web, and how do they differ, respectively?
+Informational - Websites providing information, Chalmers web homepage.
+Transactional - Websites providing a service. Online banking system, pingpong handing in items.
+Web applications - Sites that work as applications enabling you to create things. Google Drive, evernote etc.
+
+What postures that can be used depends on the task. Will the user use the site a short amount of time etc.
+
+For Informational post. the Navigation structure is the most important part.
+For Transactional post. Navigation is important, browse and search + functional
+Interaction sequences must be considered and designed to be a sequence. I.E. webshop. Choose an item, go to checkout, provide address etc.
+Often Transient.
+
+For Web App.
+Similar to desktop applications. Often sovereign.
+
+** Which postures can we – generally speaking – use for smartphones and tablets, respectively?
+Usually transient for smartphones.
+Tablets are usually sovereign.
+This is generalized information.
+
+#+LATEX: \newpage
+* Chapter 10
+#+LATEX: \newpage
+* Chapter 11
+#+LATEX: \newpage
+* Chapter 12
+#+LATEX: \newpage
+* Chapter 13
+#+LATEX: \newpage
