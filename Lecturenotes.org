@@ -211,9 +211,94 @@ This is generalized information.
 #+LATEX: \newpage
 * Chapter 10
 #+LATEX: \newpage
+
+** Explain the differences between beginners, intermediates and experts.
+*** Beginners
+Need explanations and tooltips for learning the software. A guided tour through the software is helpful.
+Helpful to have galleries and templates to help the user get started.
+Keep the represented model close to the users mental model.
+
+Uses the software seldomly and won't learn shortcuts etc.
+*** Intermediates:
+The most common group.
+Uses keyboard shortcuts or toolbars. Doesn't search through menus.
+Should not use irreversible commands unless explicitly looking for them.
+Uses tooltips.
+Want to be able to customize their experience.
+
+Uses the software often, learns shortcuts etc.
+
+*** Experts:
+They want shortcuts for everything. Since they use it often, they'll be able to learn the shortcuts.
+Even more customization compared to intermediates.
+Can handle high information density. Like in Word, 3D-modeling software(ex. Maya)
+
+** How can we design sovereign softwares to support the needs of beginners, intermediates and experts, preferably at the same time?
+Make sure that the software has menus that the beginner can scroll through. Toolbars and some shortcuts for the intermediates.
+And keyboard shortcuts for all the actions that the experts will use and learn.
+
+Have non invasive information such as toolbars that exlpain to the beginner and intermediate,
+but won't get in the way of the expert.
+
+The actions that are irreversible or at least persistent should be 'hidden' away so that a beginner or intermediate
+won't activate them by mistake.
+** How do we graduate users from beginners to intermediates?
+let them turn off help in form of tours etc. Write out the shortcuts next to the commands in the menus.
+** When users behave stupidly, they are not really stupid, they are probably… ?
+...in a hurry.
+
 * Chapter 11
 #+LATEX: \newpage
+** Cooper et al provide a very long bullet list on how design for “harmonious interactions”. Please summarize, merging the points into bigger topics.
+Well structured and forthcoming.
+
+There should be logical patterns, both spatial and functional.
+Keep the necessary/popular tools out and hide what is used more seldomly.
+
+
+Information should be presented with context.
+Commands and controls should be treated differently. The controls can adjust the output from the commands.
+
+Hide ejector seats. Might be hard to change back for a beginner.
+Reflect status. Provide modeless feedback. (look busy when being busy, etc.)
+
+Imply, suggest, hint. example. Date: YYYY-MM-DD
+
+** Why is it a good idea to separate the use of a function from the configuration of the function?
+It's more commom to use the function than to configure it. You draw more often than change the settings for the pen tool.
+
+
+** What use can animations have in a graphical interface, according to Cooper?
+They can give the interface a sense of physicality. Like the interface follows the laws of gravity, and has inertia and elasticity. Animations should be used very sparingly so that they don't detract from the experience of using the interface.
+
+They can be good for navigation transitions, state transitions, focusing the users attention and can show that something is happening like that the program is working with the latest operation or set of data etc. This can be shown with a circle, an hourglass, the apple umbrella etc.
+
 * Chapter 12
 #+LATEX: \newpage
+
+** What is excise and why is it bad?
+
+** List the three types of excise, giving concrete examples of each type.
+
+** How can we eliminate excise? Give five examples.
+
+** Why is mapping controls important?
+
 * Chapter 13
 #+LATEX: \newpage
+#+LATEX: \newpage
+
+** What is affordance?
+
+** What is pliancy, and why is it important to design pliant objects?
+
+** What is the difference between affordance and pliancy?
+
+** Describe the four types of pliancy hinting.
+
+** What does idiomatic mean in the context of interaction design?
+
+* Chapter 14
+#+LATEX: \newpage
+
+** What are the advantages and disadvantages with automatic save?
