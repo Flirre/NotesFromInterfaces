@@ -2,7 +2,7 @@
 * Chapter 1
 ** What are the three types of goals that Cooper mentions, and what do they mean?
 *** End goals
-Efficiency, the user wants to get somerhing done
+Efficiency, the user wants to get something done
 
 *** Experience goal MOST IMPORTANT
 Wanna feel something, like computer games. VR applications. (user experiecne)
@@ -277,10 +277,61 @@ They can be good for navigation transitions, state transitions, focusing the use
 #+LATEX: \newpage
 
 ** What is excise and why is it bad?
+Tasks that must be completed but aren't goal oriented. Configuring equipment, IDEs etc.
+Feel inefficient and unnecesary.
 
 ** List the three types of excise, giving concrete examples of each type.
+*** Navigation
+When you need to move or look around in a interface.
+*** Visual
+Things competing for the users attention.
+Google is a good example that avoids this, their search page provides the user with a search bar and possibly a doodle.
+Amazon is a poor example. Overwhelming the user different categories and items.
+Webhallen shows a lot of items without suffering from visual excise. The information shown is relevant and things are grouped logically.
+
+*** Modal
+Unimportant information is shown to the user. Error notifications. Dialogs etc.
 
 ** How can we eliminate excise? Give five examples.
+*** Navigation
+Avoiding hierarchies.
+Common tools close at hand.
+Quick navigation, example alt-tab.
+provide overview along with detail
+
+Reduce the number of places to go.
++ Windows
++ Views
++ Dialogs
++ Navigation areas (web)
+
+Moving around in large amounts of data
++ Improved with filtering or sorting.
++ Panning/scrolling/zooming when in image editors, 3D-modeling etc.
++ Split things up in panes/paging/tabs
+
++ Provide signposts that help orient users. Cancel/OK buttons etc.
+
+Open recent file.
+
+*** Visual
+Skeumorphism helps against visual excise.
+
+*** Modal
+Don't have the user:
++ remember where they put their files etc.
++ move or resize windows.
++ enter unnecessary data.
++ verify actions, acknowledge information.
+
+Properly map controls to function.
+The results can be clear but not the target.
+Poor mapping forces user to stop and think. (stove example)
+
+A metaphor used to help with the users mental model can hinder what is possible to do with the interface.
+
+Allow the user to input where they get output. Change an erronius field when they are presented with the fact that it is wrong without backtracking.
+
 
 ** Why is mapping controls important?
 
@@ -289,14 +340,29 @@ They can be good for navigation transitions, state transitions, focusing the use
 #+LATEX: \newpage
 
 ** What is affordance?
+It suggests how to use something. A door handle invites a user to push down to be able to open the door. It is mostly for objects in the physical space.
 
 ** What is pliancy, and why is it important to design pliant objects?
+Pliancy is how we design affordance in virtual space. Pliancy helps the user know that an item can be interacted with.
 
 ** What is the difference between affordance and pliancy?
+Affordance is physical. Pliancy is virtual.
 
 ** Describe the four types of pliancy hinting.
+*** Static object hinting
+How an item looks when not manipulated. Like a shadow or something hinting at the pressability.
+
+*** Dynamic visual hinting
+How the item reacts to a cursor passing over it.
+
+*** Pliant response hinting
+The item changes appearance when actually interacted with. Like changing colour when pressed.
+
+*** Cursor hinting
+The cursor changing appearance to hint about what can be done. A finger to hint about clicking, caret for text editing, etc.
 
 ** What does idiomatic mean in the context of interaction design?
+It means that the user needs to learn a metaphor. A good idiom will only be learned once and retained forever.
 
 * Chapter 14
 #+LATEX: \newpage
