@@ -368,3 +368,85 @@ It means that the user needs to learn a metaphor. A good idiom will only be lear
 #+LATEX: \newpage
 
 ** What are the advantages and disadvantages with automatic save?
+*** Advantages
+ The user does not have to actively think about saving a file.
+*** Disadvantages
+If the auto-save doesn't work as intended and work gets lost the trust for the software takes a huge hit.
+
+* Chapter 15
+#+LATEX: \newpage
+
+** What is modeless feedback?
+Feedback that is "just there", no popups are created or acknowledgement is needed from the user.
+It is preferable because it does not disturb or require special actions.
+** Explain why rich modeless feedback is so [insert numerous positive adjectives] useful. Provide an example.
+If an error can be handled quietly or an action can be performed without further acknowledgement from the user than that is preferable since it won't interrupt the users flow with unnecessary excise.
+
+** When and how should audible feedback be used?
+Try to use positive audible feedback and avoid negative audible feedback.
+Use it to indicate that something happened right now. Acknowledge that something is happening.
+Use it to indicate that something happened in the background.
+
+** How can the conventional undo feature be made more powerful?
+If you can undo changes after the document has been saved and/or closed.
+If there are several (preferably many) steps that you can undo.
+If you could undo several actions at once if they can be grouped logically. Example: Undo all the boldings I have done in this paragraph so that they are ordinary text.
+
+Be clear with what is undone. Example: "Undo Bold text", "Undo resize image" etc.
+
+* Chapter 16
+#+LATEX: \newpage
+** Give examples of pedagogic, immediate and invisible commands respectively.
+*** Pedagogic
+"In your face", labeled (in) menus. Slow but good for beginner. "Save as.." found by clicking "File" in the menus.
+*** Immediate
+Available and visible. Example Toolbars. Can act as reminders. Bolding text etc. Easy access, no label.
+*** Invisible
+Hidden, gestures, keyboard shortcuts. Ctrl+C = Copy, Kinect gestures for different actions. C-x-s = save.
+
+** Providing help or hints to users as they try to learn a new interface is important. List five ways in which this can be done in graphical interfaces.
+Tooltips. Labeling shortcuts/accelerators in menus. Guided tours. Wizards. Templates. Overlays.
+** Give five design choices to consider when it comes to accessibility and graphical interfaces.
+Try to make the interface traversable with just a keyboard for disabled users.
+Try to use symbols as well as colors, to avoid alienating color blind users.
+The font should be able to be customized (enlarged, bolded, etc.).
+Make the interface usable for people with reduced vision by making the interface readable by a synthesized voice and with alt. tags for icons and pictures etc.
+Avoid blinking, flickering etc. not just because it is annoying but also because it can be hazardous for some users who suffer from seizures.
+
+* Chapter 17
+#+LATEX: \newpage
+** Which visual attributes do graphic components have?
+
+** Why are all-caps texts more difficult to read?
+
+** What are the benefits of using a grid as basis for design
+
+** Apart from using a grid, which principles should be applied when laying out the components of an interface to create structure and flow?
+
+** Does a layout grid decrease or increase visual excise? Why?
+
+** How can you establish a visual hierarchy in a graphical interface?
+
+
+* Chapter 18
+#+LATEX: \newpage
+
+** What does WIMP stand for?
+
+** In terms of “anatomy of a desktop application”, which are the main building blocks?
+
+** How should menus be designed to be “pedagogic vectors”? Give examples.
+
+** What is the difference between a toolbar and a tool palette and when should they be used, respectively?
+
+** What is cascading menus? What are the advantage and disadvantage with them?
+
+** What is a tool tips?
+
+** When is an action committed; on mouse down or mouse up? Why?
+
+** What are the advantages with an object-verb oriented selection sequence?
+
+** What types of selection are there and when and why do they apply?
+
+** What characterizes a well-designed drag and drop sequence?
