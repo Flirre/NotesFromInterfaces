@@ -416,37 +416,130 @@ Avoid blinking, flickering etc. not just because it is annoying but also because
 * Chapter 17
 #+LATEX: \newpage
 ** Which visual attributes do graphic components have?
+Size, color, texture, position, orientation, shape, motion/change
 
 ** Why are all-caps texts more difficult to read?
+The letters are less distinct when all-caps, making it harder to distinguish what letters the user is reading.
 
-** What are the benefits of using a grid as basis for design
+** What are the benefits of using a grid as basis for design?
+It groups items. You can use gaps to group them.
 
 ** Apart from using a grid, which principles should be applied when laying out the components of an interface to create structure and flow?
 
 ** Does a layout grid decrease or increase visual excise? Why?
+It decreases it. It creates an order that the order percieves (unconscious) and that helps the user understand the structure and order of the interface. It also groups content.
 
 ** How can you establish a visual hierarchy in a graphical interface?
-
+Show the user what is most important in the most prominent manner.
+You can use position, putting things at the top or in the middle, etc.
+Colour, size, etc. can also establish the visual hierarchy.
 
 * Chapter 18
 #+LATEX: \newpage
 
 ** What does WIMP stand for?
++ Windows
++ Icons
++ Menus
++ Pointer
 
 ** In terms of “anatomy of a desktop application”, which are the main building blocks?
+Primary window, secondary windows, Different panes.
 
 ** How should menus be designed to be “pedagogic vectors”? Give examples.
+Try to follow standards. /File/ in the same location.
+Pliancy on current objects, checkmarks to indicate if a mode is selected.
 
 ** What is the difference between a toolbar and a tool palette and when should they be used, respectively?
+Toolbars use visual icons and perhaps a small text label to clarify. They are used for *performing actions on selections*.
+Tool palettes use text only. These *switch between states/tools*.
 
 ** What is cascading menus? What are the advantage and disadvantage with them?
+When a menu item is selected a secondary 'side-menu' pops out with more menu items.
+More 'levels' make them *harder to navigate* and hides options.
+It enables the designer to *fit more tools* in the menus.
 
 ** What is a tool tips?
+An information box that shows up when the mouse is hovered over an element. This explains what the element/button does.
 
 ** When is an action committed; on mouse down or mouse up? Why?
+*Mouse up*. To *confirm/commit the action*.
 
 ** What are the advantages with an object-verb oriented selection sequence?
++ You can *perform several actions in a row* on an object.
++ After selection you can show the commands that are possible to apply to that object.
 
-** What types of selection are there and when and why do they apply?
+** What types of selection are there and when and why do they apply? (read more?)
++ Hierarchy / category, example: choosing text by heading etc. Choosing layers in Photoshop.
++ Arbitrary by additive selection (with modifier key and mouse click) or by dragging an marquee.
 
 ** What characterizes a well-designed drag and drop sequence?
+ Show what is being moved with a selection box. While moving the item show possible drop candidates. When dropping the item keep the selection of the item while displaying it in its new location.
+* Chapter 19
+** What are the advantages with touch interaction?
++ It allows for *direct manipulation*, changing things by touching and moving them with your fingers.
++ Allows for *multi-touch*. Example: zooming on maps.
+** What are the disadvantages with touch interaction?
++ Finger pointing is not precise.
++ Occlusion, you cover up parts of the screen while interacting with it.
++ One-hand interaction is difficult, especially for users with small hands. Hard to reach all of the screen with one hand.
++ No hover/mouse over hinting. So no dynamic visual hinting pliancy and tool-tips are eliminated.
++ No right-click capabilities.
+
+** How can some of the disadvantages with touch interaction be minimised?
++ Have big target size, can even extend out and be bigger than the icon it is attached to.
++ Hint pliancy, 3D buttons with shadows etc.
++ Plan for potential occlusion and show relevant information where the hand is not in the way.
+
+** List the gestures that are used for touch interaction interfaces
++ Tap to - select/activate/toggle
++ Drag/swipe to - scroll/move/change/open
++ Pinch to - zoom (spatial or semantic)
++ pinch to - rotate (map) or turn (knob)
++ tap and hold - uncommon
++ multifinger swipe - avoid
+
+** How can the search interface on mobile (and other) applications be made more efficient and powerful?
++ Content carousels.
++ Hinting about scrolling possibilities.
++ 'swim lanes' - Combination of carousels and grids. Like Netflix.
++ auto-completion based on writing patterns or previous searches.
+
++ pop-up control panels / drawers
++ tool-bar similar to desktop. Hide tool-configuration inside the tool. Activated after tapping the tool. Make it easy to tap and use and avoid actions such as drag-and-drop. No hierarchies.
++ mimic the interface of the physical hardware that you are 'emulating'.
+
+* Chapter 20
+
+** Cooper claims that desktop applications are only really needed for a specific kind of tools; which ones?
+Sophisticated authoring tools such as:
++ graphic design
++ 3d modelling
++ video editing
+
+** What is a hamburger menu?
+It is a way of hiding the primary navigation by only being able to access it by pressing a button.
+
+** According to Cooper, is scrolling something to avoid or to embrace?
+Embrace it, but enhance it.
+Enhance it by having both light and dark areas that you scroll through. Or clear separators.
+Keep the primary navigation.
+
+** How can we create a responsive web design?
+Have resizing options up to a certain breakpoint. When that breakpoint is reached you change to a layout made for a different screen. Example: From desktop layout to mobile layout, adjusted from 16:9 to 9:16.
+The mobile versions should account for screen size, touch input, sensors and challenging light situations.
+
+* Chapter 21
+** What is the difference between imperative controls, selection controls, and entry controls?
+
+** Which imperative controls are there, and when and why should they be used, respectively?
+
+** Which selection controls are there, and when and why should they be used, respectively?
+
+** Which entry controls are there, and when and why should they be used, respectively?
+
+** What are the advantages and disadvantages with bounded and unbounded entry controls?
+
+** What’s wrong with error messages?
+
+** How can confirmation dialogs be avoided?
